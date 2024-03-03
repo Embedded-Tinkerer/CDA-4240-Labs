@@ -1,0 +1,27 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_tb_behav xil_defaultlib.comparator_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture behavioral of entity xil_defaultlib.if_then_else [if_then_else_default]
+Compiling architecture dataflow of entity xil_defaultlib.when_else [when_else_default]
+Compiling architecture dataflow of entity xil_defaultlib.boolean_equation [boolean_equation_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1000010000100001")(0...]
+Compiling architecture primitive of entity xil_defaultlib.LUT_primitive [lut_primitive_default]
+Compiling architecture structural of entity xil_defaultlib.comparator_top [comparator_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_tb
+Built simulation snapshot comparator_tb_behav

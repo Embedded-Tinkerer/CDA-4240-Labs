@@ -1,0 +1,349 @@
+
+*** Running vivado
+    with args -log mydesign1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mydesign1.tcl
+
+
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source mydesign1.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab0/lab_0/lab_0.srcs/utils_1/imports/synth_1/mydesign1.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab0/lab_0/lab_0.srcs/utils_1/imports/synth_1/mydesign1.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top mydesign1 -part xc7z007sclg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Device 21-403] Loading part xc7z007sclg400-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 30224
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1388.227 ; gain = 439.715
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mydesign1' [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab0/lab0_design.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'mydesign1' (0#1) [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab0/lab0_design.vhd:14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1495.117 ; gain = 546.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1495.117 ; gain = 546.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1495.117 ; gain = 546.605
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1495.117 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_A[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_A[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_A[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_B[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_B[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_B[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_an[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_an[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_an[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_an[3]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[3]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[4]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[5]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[6]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[7]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mydesign1_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mydesign1_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1545.934 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the file specified.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1545.934 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |FDRE |     4|
+|3     |IBUF |     3|
+|4     |OBUF |     2|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1545.934 ; gain = 597.422
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1545.934 ; gain = 546.605
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1545.934 ; gain = 597.422
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1545.934 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1545.934 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the file specified.
+Synth Design complete | Checksum: 7a1472d7
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 45 Warnings, 44 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1545.934 ; gain = 991.672
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1545.934 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab0/lab_0/lab_0.runs/synth_1/mydesign1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mydesign1_utilization_synth.rpt -pb mydesign1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jan 13 16:29:14 2024...

@@ -1,0 +1,47 @@
+{
+    "Report Information": {
+        "Copyright": "Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.",
+        "Tool Version": "Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023",
+        "Date": "Sun Mar  3 10:18:45 2024",
+        "Host": "DESKTOP-I7EHI1I running 64-bit major release  (build 9200)",
+        "Command": "report_design_analysis -qor_summary -disable_device_warning -json {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab2/lab2/lab2.runs/impl_2/.Xil/Vivado-13232-DESKTOP-I7EHI1I/dcp0/reg_file_rda.json}",
+        "Design": "reg_file",
+        "Device": "xc7z007s",
+        "Design State": "Synthesized"
+    },
+    "Design QoR Summary": [{
+            "Task Name": "synth_design",
+            "Options": "-define default::[not_specified] -vhdl_define default::[not_specified]",
+            "Directives": "",
+            "Runtime(mins)": "0",
+            "Wns(ns)": "",
+            "Tns(ns)": "",
+            "Whs(ns)": "",
+            "Ths(ns)": "",
+            "RQA": "",
+            "Global Cong Level N-E-S-W": "",
+            "Global Cong Tile% N-E-S-W": "",
+            "Long Cong Level N-E-S-W": "",
+            "Long Cong Tile% N-E-S-W": "",
+            "Short Cong Level N-E-S-W": "",
+            "Short Cong Tile% N-E-S-W": "",
+            "Number of threads": "2"
+        }, {
+            "Task Name": "opt_design",
+            "Options": "",
+            "Directives": "",
+            "Runtime(mins)": "0",
+            "Wns(ns)": "",
+            "Tns(ns)": "",
+            "Whs(ns)": "",
+            "Ths(ns)": "",
+            "RQA": "",
+            "Global Cong Level N-E-S-W": "",
+            "Global Cong Tile% N-E-S-W": "",
+            "Long Cong Level N-E-S-W": "",
+            "Long Cong Tile% N-E-S-W": "",
+            "Short Cong Level N-E-S-W": "",
+            "Short Cong Tile% N-E-S-W": "",
+            "Number of threads": "2"
+        }]
+}

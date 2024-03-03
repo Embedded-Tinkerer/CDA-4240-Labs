@@ -1,0 +1,374 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Feb 13 22:02:08 2024
+# Process ID: 28552
+# Current directory: K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28544 K:\My Drive\Grad\FAU_PhD\CDA 4240 - Design of Digital Systems\Labs\Lab1\lab_1\lab_1.xpr
+# Log file: K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/vivado.log
+# Journal file: K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1\vivado.jou
+# Running On: DESKTOP-I7EHI1I, OS: Windows, CPU Frequency: 3400 MHz, CPU Physical cores: 32, Host memory: 68637 MB
+#-----------------------------------------------------------
+start_gui
+open_project {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 1592.121 ; gain = 383.777
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.srcs/utils_1/imports/synth_1/comparator_top.dcp with file K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.runs/synth_1/comparator_top.dcp
+launch_runs synth_1 -jobs 16
+[Tue Feb 13 22:02:53 2024] Launched synth_1...
+Run output will be captured here: K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Tue Feb 13 22:03:49 2024] Launched impl_1...
+Run output will be captured here: K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z007sclg400-1
+INFO: [Device 21-403] Loading part xc7z007sclg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1993.777 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_A[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_A[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_A[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_B[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_B[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RGB_led_B[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_an[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_an[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_an[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_an[3]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[0]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[1]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[2]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[3]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[4]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[5]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[6]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cat[7]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:125]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:125]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/blackboard_revD.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2083.172 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2250.992 ; gain = 620.074
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2742.277 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2742.277 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2742.277 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2742.277 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2742.277 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2742.277 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2742.277 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.166 . Memory (MB): peak = 2742.277 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.166 . Memory (MB): peak = 2742.277 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2742.277 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Tue Feb 13 22:05:05 2024] Launched impl_1...
+Run output will be captured here: K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.2
+  **** Build date : Oct 13 2023 at 21:31:40
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 10 2023-00:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 3594.879 ; gain = 66.895
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/887100000970A
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1435] Device xc7z007s (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.runs/impl_1/comparator_top.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'comparator_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'comparator_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj comparator_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.srcs/sources_1/new/design.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'if_then_else'
+INFO: [VRFC 10-3107] analyzing entity 'when_else'
+INFO: [VRFC 10-3107] analyzing entity 'boolean_equation'
+INFO: [VRFC 10-3107] analyzing entity 'LUT_primitive'
+INFO: [VRFC 10-3107] analyzing entity 'comparator_top'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_tb_behav xil_defaultlib.comparator_tb -log elaborate.log"
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_tb_behav xil_defaultlib.comparator_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture behavioral of entity xil_defaultlib.if_then_else [if_then_else_default]
+Compiling architecture dataflow of entity xil_defaultlib.when_else [when_else_default]
+Compiling architecture dataflow of entity xil_defaultlib.boolean_equation [boolean_equation_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1000010000100001")(0...]
+Compiling architecture primitive of entity xil_defaultlib.LUT_primitive [lut_primitive_default]
+Compiling architecture structural of entity xil_defaultlib.comparator_top [comparator_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_tb
+Built simulation snapshot comparator_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab1/lab_1/lab_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "comparator_tb_behav -key {Behavioral:sim_1:Functional:comparator_tb} -tclbatch {comparator_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source comparator_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'comparator_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 3594.879 ; gain = 0.000
+run 20 us
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/887100000970A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/887100000970A
+open_hw_target: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 4288.273 ; gain = 0.000
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [K:\My Drive\Grad\FAU_PhD\CDA 4240 - Design of Digital Systems\Labs\Lab1\lab_1\lab_1.srcs\sources_1\new\design.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [K:\My Drive\Grad\FAU_PhD\CDA 4240 - Design of Digital Systems\Labs\Lab1\lab_1\lab_1.srcs\sim_1\new\sim.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 14 07:54:15 2024...

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab0/lab0_design.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mydesign1'
+INFO: [VRFC 10-163] Analyzing VHDL file "K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab0/lab0_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mysim1'

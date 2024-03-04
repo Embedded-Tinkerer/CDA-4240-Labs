@@ -28,9 +28,6 @@ architecture dataflow of adder is
 
     signal sum        : std_logic_vector(n-1 downto 0);
     signal carry      : std_logic_vector(n-1 downto 0);
-
-begin
-
 -- ADDER ARCHITECTURE GOES HERE
 
 end dataflow;
@@ -182,9 +179,22 @@ architecture structural of alu is
     end component;
 
 -- ADDITIONAL SIGNALS GO HERE
+signal adder_out  : std_logic_vector(n-1 downto 0);
+signal mult_out  : std_logic_vector(n-1 downto 0);
+signal logic_out  : std_logic_vector(n-1 downto 0);
+signal shift_out  : std_logic_vector(n-1 downto 0);
+
 
 begin
 
--- ALU ARCHITECTURE GOES HERE
+-- ALU ARCHITECTURE GOES HERE 
+process(sel, a, b) is
+begin
+    case( sel [3:2] ) is
+        when 00 => r <= adder_out;
+        when 01 => r <= mult_out;
+        when 10 => r <= logic_out;
+        when others r <= shift_out;
+    end case ;
 
 end structural;

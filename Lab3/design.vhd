@@ -29,6 +29,13 @@ architecture dataflow of adder is
     signal sum        : std_logic_vector(n-1 downto 0);
     signal carry      : std_logic_vector(n-1 downto 0);
 -- ADDER ARCHITECTURE GOES HERE
+--begin
+--    process(sel[1:0]) is
+--        begin
+--            case(sel[1:0])
+ --           when 00 => sum <= a_long + b_long;
+ --           when 01 => carry <= 
+
 
 end dataflow;
 
@@ -53,9 +60,14 @@ end mult;
 architecture dataflow of mult is
 
 -- ADDITIONAL SIGNALS GO HERE
+signal result : signed(n-1 downto 0)
 
 begin
-
+    result <= a*b;
+    process(sel, a, b)
+    case(sel) is
+        when "00" => r <= result(n-1 downto 0);
+        
 -- MULTIPLIER ARCHITECTURE GOES HERE
 
 end dataflow;
@@ -81,6 +93,15 @@ architecture dataflow of logic_unit is
 -- ADDITIONAL SIGNALS GO HERE
 
 begin
+    process(sel,a,b)
+    begin
+        case(sel) is
+            when "00" => r <= a NOT b;
+            when "01" => r <= a AND b;
+            when "10" => r <= a OR b;
+            when others r <= a XOR b
+            end case ;
+            end;
 
 -- LOGIC UNIT ARCHITECTURE GOES HERE
 
@@ -107,11 +128,13 @@ entity shifter is
 end shifter;
 
 architecture dataflow of shifter is
-
 -- ADDITIONAL SIGNALS GO HERE
 
 begin
-
+    process(sel,a,b)
+    begin
+        case(sel) is
+            when "10" => 
 -- SHIFTER ARCHITECTURE GOES HERE
 
 end dataflow;

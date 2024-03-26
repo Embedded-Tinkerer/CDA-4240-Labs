@@ -9,7 +9,7 @@ entity mult is
         sel  : in  std_logic_vector(3 downto 0);
         a    : in  std_logic_vector(n-1 downto 0);
         b    : in  std_logic_vector(n-1 downto 0);
-        r    : out std_logic_vector(n-1 downto 0) 
+        r    : inout std_logic_vector(n-1 downto 0) 
     );
 end mult;
 

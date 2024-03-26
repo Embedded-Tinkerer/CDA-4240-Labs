@@ -1,0 +1,76 @@
+srcscan starts
+srcscan exits with return value 0
+ will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# An error report file with more information is saved as:
+# C:\Users\bryner\Documents\GitHub\CDA-4240-Labs\Lab3\lab3\hs_err_pid4672.losrcsrcscan start===srcscan exits with return value 0
+DL std libs ===========
+INFO: VHDL library search path for library "std" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/std" (VHDL-1505)
+INFO: VHDL library search path for library "synopsys" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/synopsys" (VHDL-1505)
+INFO: VHDL library search path for library "ieee" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/ieee" (VHDL-1505)
+INFO: VHDL library search path for library "unimacro" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/unimacro" (VHDL-1505)
+INFO: VHDL library search path for library "unisim" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/unisim" (VHDL-1505)
+INFO: VHDL library search path for library "vl" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/vl" (VHDL-1505)
+INFO: VHDL library search path for library "xpm" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/xpm" (VHDL-1505)
+-- Analyzing VHDL file "C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'alu' (VHDL-1012)
+INFO: analyzing architecture 'structural' of entity 'alu' (VHDL-9006)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(30): ERROR: range expression expected here (VHDL-1660)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(65): WARNING: syntax error near 'r' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(74): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(74): ERROR: type error near b ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(74): ERROR: 'b' is not a subprogram (VHDL-1237)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(8): INFO: 'b' is declared here
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(76): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(76): ERROR: type error near b ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(76): ERROR: 'b' is not a subprogram (VHDL-1237)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(8): INFO: 'b' is declared here
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(78): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(78): ERROR: type error near b ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(78): ERROR: 'b' is not a subprogram (VHDL-1237)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(8): INFO: 'b' is declared here
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(80): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(80): ERROR: type error near b ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(80): ERROR: 'b' is not a subprogram (VHDL-1237)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(8): INFO: 'b' is declared here
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(82): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(82): ERROR: type error near b ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(82): ERROR: 'b' is not a subprogram (VHDL-1237)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(8): INFO: 'b' is declared here
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(84): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(84): ERROR: 'to_integer' is not declared (VHDL-1241)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(86): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(86): ERROR: 'to_integer' is not declared (VHDL-1241)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(88): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(88): ERROR: 'to_integer' is not declared (VHDL-1241)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(90): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(90): ERROR: type error near a ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(90): ERROR: 'a' is not a subprogram (VHDL-1237)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(7): INFO: 'a' is declared here
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(92): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(92): WARNING: syntax error near ';' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(96): ERROR: mismatch on label; expected 'structural' (VHDL-1135)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14384460417947102903.tmp(98): WARNING: syntax error near 'https' (VHDL-1261)
+-- Analyzing VHDL file "C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist17018980966298734327.tmp" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'adder' (VHDL-1012)
+INFO: analyzing architecture 'dataflow' of entity 'adder' (VHDL-9006)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist17018980966298734327.tmp(23): WARNING: syntax error near 'ADDER' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist17018980966298734327.tmp(26): WARNING: syntax error near 'case' (VHDL-1261)
+-- Analyzing VHDL file "C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist6926962561621660196.tmp" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'mult' (VHDL-1012)
+INFO: analyzing architecture 'dataflow' of entity 'mult' (VHDL-9006)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist6926962561621660196.tmp(24): WARNING: syntax error near 'signal' (VHDL-1261)
+-- Analyzing VHDL file "C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist13812615150104190586.tmp" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'logic_unit' (VHDL-1012)
+INFO: analyzing architecture 'dataflow' of entity 'logic_unit' (VHDL-9006)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist13812615150104190586.tmp(23): WARNING: syntax error near 'when' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist13812615150104190586.tmp(23): WARNING: syntax error near 'NOT' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist13812615150104190586.tmp(25): WARNING: syntax error near 'when' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist13812615150104190586.tmp(26): WARNING: syntax error near 'when' (VHDL-1261)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist13812615150104190586.tmp(27): ERROR: cannot read from 'out' object 'r'; use 'buffer' or 'inout' instead (VHDL-1033)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist13812615150104190586.tmp(28): WARNING: syntax error near 'case' (VHDL-1261)
+-- Analyzing VHDL file "C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14921749566394184421.tmp" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'shifter' (VHDL-1012)
+INFO: analyzing architecture 'dataflow' of entity 'shifter' (VHDL-9006)
+C:/Users/bryner/AppData/Local/Temp/VivadoEditorAssist14921749566394184421.tmp(23): WARNING: syntax error near 'case' (VHDL-1261)
+srcscan exits with return value 0

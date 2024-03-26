@@ -17,15 +17,21 @@ signal logic_out : std_logic_vector(n-1 downto 0);
 
 -- LOGIC UNIT ARCHITECTURE GOES HERE
 begin
-    process(sel,a,b) is
+    process(sel, a, b) is
     begin
-        case(sel) is
-            when "1000" => r <= a NOT b;
-            when "1001" => r <= a AND b;
-            when "1010" => r <= a OR b;
-            when "1011" r <= a XOR b;
-            logic_out <= r;
-            end case ;
+        case sel is
+            when "1000" => 
+                r <= not A;
+            when "1001" =>
+                r <= A and B;
+            when "1010" => 
+                r <= A or B;
+            when "1011" =>
+                r <= A xor B;
+        end case;
+        logic_out <= r;
     end process;
 
-end dataflow;
+end architecture dataflow;
+
+

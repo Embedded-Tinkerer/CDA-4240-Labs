@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.1 (64-bit)
+# SW Build 4081461 on Thu Dec 14 12:24:51 MST 2023
+# IP Build 4080415 on Thu Dec 14 21:01:57 MST 2023
+# SharedData Build 4077621 on Mon Dec 11 00:23:44 MST 2023
+# Start of session at: Tue Mar 26 09:18:29 2024
+# Process ID: 4672
+# Current directory: C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent49572 C:\Users\bryner\Documents\GitHub\CDA-4240-Labs\Lab3\lab3\lab3.xpr
+# Log file: C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/vivado.log
+# Journal file: C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3\vivado.jou
+# Running On: BRYNER-L01, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16912 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,110 @@
+srcscan starts
+=============== Using vdb files for VHDL std libs ===========
+INFO: VHDL library search path for library "std" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/std" (VHDL-1505)
+INFO: VHDL library search path for library "synopsys" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/synopsys" (VHDL-1505)
+INFO: VHDL library search path for library "ieee" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/ieee" (VHDL-1505)
+INFO: VHDL library search path for library "unimacro" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/unimacro" (VHDL-1505)
+INFO: VHDL library search path for library "unisim" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/unisim" (VHDL-1505)
+INFO: VHDL library search path for library "vl" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/vl" (VHDL-1505)
+INFO: VHDL library search path for library "xpm" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/xpm" (VHDL-1505)
+-- Analyzing VHDL file "C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/adder.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'adder' (VHDL-1012)
+INFO: analyzing architecture 'dataflow' of entity 'adder' (VHDL-9006)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/adder.vhd(23): WARNING: syntax error near 'ADDER' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/adder.vhd(26): WARNING: syntax error near 'case' (VHDL-1261)
+-- Analyzing VHDL file "C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'alu' (VHDL-1012)
+INFO: analyzing architecture 'structural' of entity 'alu' (VHDL-9006)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(30): ERROR: range expression expected here (VHDL-1660)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(65): WARNING: syntax error near 'r' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(74): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(74): ERROR: type error near b ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(74): ERROR: 'b' is not a subprogram (VHDL-1237)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(8): INFO: 'b' is declared here
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(76): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(76): ERROR: type error near b ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(76): ERROR: 'b' is not a subprogram (VHDL-1237)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(8): INFO: 'b' is declared here
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(78): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(78): ERROR: type error near b ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(78): ERROR: 'b' is not a subprogram (VHDL-1237)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(8): INFO: 'b' is declared here
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(80): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(80): ERROR: type error near b ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(80): ERROR: 'b' is not a subprogram (VHDL-1237)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(8): INFO: 'b' is declared here
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(82): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(82): ERROR: type error near b ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(82): ERROR: 'b' is not a subprogram (VHDL-1237)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(8): INFO: 'b' is declared here
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(84): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(84): ERROR: 'to_integer' is not declared (VHDL-1241)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(86): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(86): ERROR: 'to_integer' is not declared (VHDL-1241)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(88): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(88): ERROR: 'to_integer' is not declared (VHDL-1241)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(90): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(90): ERROR: type error near a ; current type std_logic_vector; expected type  void (VHDL-9022)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(90): ERROR: 'a' is not a subprogram (VHDL-1237)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(7): INFO: 'a' is declared here
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(92): WARNING: syntax error near 'out' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(92): WARNING: syntax error near ';' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(96): ERROR: mismatch on label; expected 'structural' (VHDL-1135)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(98): WARNING: syntax error near 'https' (VHDL-1261)
+-- Analyzing VHDL file "C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'tb_ALU' (VHDL-1012)
+INFO: analyzing architecture 'behavior' of entity 'tb_alu' (VHDL-9006)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(16): WARNING: syntax error near 'Select' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(14): ERROR: semicolon after last interface declaration is only supported in VHDL 1076-2019 (VHDL-1854)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(23): WARNING: syntax error near 'Select' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(36): WARNING: syntax error near 'Select' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(38): WARNING: syntax error near ')' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(33): ERROR: formal port 'a' has no actual or default value (VHDL-1768)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(14): INFO: 'a' is declared here
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(15): INFO: 'b' is declared here
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(46): ERROR: 'alu_sel' is not declared (VHDL-1241)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(49): WARNING: syntax error near 'Select' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(49): ERROR: type ' void' does not match with a string literal (VHDL-1276)
+-- Analyzing VHDL file "C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/logic_unit.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'logic_unit' (VHDL-1012)
+INFO: analyzing architecture 'dataflow' of entity 'logic_unit' (VHDL-9006)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/logic_unit.vhd(23): WARNING: syntax error near 'when' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/logic_unit.vhd(23): WARNING: syntax error near 'NOT' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/logic_unit.vhd(25): WARNING: syntax error near 'when' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/logic_unit.vhd(26): WARNING: syntax error near 'when' (VHDL-1261)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/logic_unit.vhd(27): ERROR: cannot read from 'out' object 'r'; use 'buffer' or 'inout' instead (VHDL-1033)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/logic_unit.vhd(28): WARNING: syntax error near 'case' (VHDL-1261)
+-- Analyzing VHDL file "C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/multiplier.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'mult' (VHDL-1012)
+INFO: analyzing architecture 'dataflow' of entity 'mult' (VHDL-9006)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/multiplier.vhd(24): WARNING: syntax error near 'signal' (VHDL-1261)
+-- Analyzing VHDL file "C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/shifter.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'shifter' (VHDL-1012)
+INFO: analyzing architecture 'dataflow' of entity 'shifter' (VHDL-9006)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/shifter.vhd(23): WARNING: syntax error near 'case' (VHDL-1261)
+Listing tops:
+VHDLTop: library:xil_defaultlib entity:adder arch:
+VHDLTop: library:xil_defaultlib entity:adder arch:
+VHDLTop: library:xil_defaultlib entity:tb_alu arch:
+VHDLTop: library:xil_defaultlib entity:tb_alu arch:
+VHDLTop: library:xil_defaultlib entity:logic_unit arch:
+VHDLTop: library:xil_defaultlib entity:logic_unit arch:
+VHDLTop: library:xil_defaultlib entity:mult arch:
+VHDLTop: library:xil_defaultlib entity:mult arch:
+VHDLTop: library:xil_defaultlib entity:shifter arch:
+VHDLTop: library:xil_defaultlib entity:shifter arch:
+END of tops
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/adder.vhd(8): INFO: processing 'adder_default()' (VHDL-1067)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(5): INFO: processing 'tb_ALU_default(behavior)' (VHDL-1067)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(17): ERROR: formal port <ALU_Out> does not exist in entity <alu>.  Please compare the definition of block <alu> to its component declaration and its instantion to detect the mismatch. (VHDL-9007)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(4): INFO: 'alu' is declared here
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd(17): ERROR: formal port <ALU_Out> does not exist in entity <alu_default>.  Please compare the definition of block <alu_default> to its component declaration and its instantion to detect the mismatch. (VHDL-9007)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(4): INFO: 'alu_default' is declared here
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(4): INFO: processing 'alu_default(structural)' (VHDL-1067)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(6): ERROR: formal port 'sel' has no actual or default value (VHDL-1768)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(7): ERROR: formal port 'a' has no actual or default value (VHDL-1768)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd(8): ERROR: formal port 'b' has no actual or default value (VHDL-1768)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/logic_unit.vhd(4): INFO: processing 'logic_unit_default()' (VHDL-1067)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/multiplier.vhd(5): INFO: processing 'mult_default()' (VHDL-1067)
+C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/shifter.vhd(5): INFO: processing 'shifter_default()' (VHDL-1067)
+srcscan exits with return value 0

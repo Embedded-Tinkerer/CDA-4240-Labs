@@ -87,6 +87,9 @@ begin
         when "1110" => r <= shift_out;
         when "1111" => r <= shift_out;
     end case;
+    
+    if (r == shift_out) then
+        
 end process;
 
 end architecture structural;

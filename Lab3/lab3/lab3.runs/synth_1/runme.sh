@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.runs/synth_1'
+HD_PWD='C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

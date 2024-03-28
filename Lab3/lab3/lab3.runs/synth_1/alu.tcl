@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.runs/synth_1/alu.tcl"
+  variable script "C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.runs/synth_1/alu.tcl"
   variable category "vivado_synth"
 }
 
@@ -76,20 +76,20 @@ create_project -in_memory -part xc7a100tcsg324-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.cache/wt} [current_project]
-set_property parent.project_path {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.xpr} [current_project]
+set_property webtalk.parent_dir C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.cache/wt [current_project]
+set_property parent.project_path C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo {k:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.cache/ip} [current_project]
+set_property ip_output_repo c:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sources_1/new/adder.vhd}
-  {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sources_1/new/logic_unit.vhd}
-  {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sources_1/new/multiplier.vhd}
-  {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sources_1/new/shifter.vhd}
-  {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd}
+  C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/adder.vhd
+  C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/logic_unit.vhd
+  C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/multiplier.vhd
+  C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/shifter.vhd
+  C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/sources_1/new/alu.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -102,7 +102,7 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 }
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental {K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/utils_1/imports/synth_1/alu.dcp}
+read_checkpoint -auto_incremental -incremental C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.srcs/utils_1/imports/synth_1/alu.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

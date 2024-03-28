@@ -32,8 +32,8 @@ architecture dataflow of adder is
     signal sum_long   : unsigned(n downto 0);
 
     signal sum        : std_logic_vector(n-1 downto 0):= A + B;
-    signal carry      : std_logic_vector(n-1 downto 0);   
-    signal difference : std_logic_vector(n-1 downto 0);
+    signal carry      : std_logic_vector(n-1 downto 0):= A - B;  
+    signal difference : std_logic_vector(n-1 downto 0):= A - B;
     signal borrow     : std_logic_vector(n-1 downto 0);  
     
 

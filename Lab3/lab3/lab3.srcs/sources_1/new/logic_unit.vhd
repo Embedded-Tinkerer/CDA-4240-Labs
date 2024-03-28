@@ -18,7 +18,7 @@ architecture dataflow of logic_unit is
 
 begin
     process(sel, a, b) is
-    begin
+        begin
         case sel is
             when "00" => 
                 r <= not A;

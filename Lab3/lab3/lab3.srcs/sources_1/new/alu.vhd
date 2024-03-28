@@ -14,14 +14,13 @@ entity alu is
 end alu;
 
 architecture structural of alu is
-   -- constant m : integer := 3;
 
 -- ADDITIONAL SIGNALS GO HERE
 signal adder_out  : std_logic_vector(n-1 downto 0);
-signal mult_out  : std_logic_vector(n-1 downto 0);
+signal mult_out   : std_logic_vector(n-1 downto 0);
 signal logic_out  : std_logic_vector(n-1 downto 0);
 signal shift_out  : std_logic_vector(n-1 downto 0);
---signal temp_sel : std_logic_vector(3 downto 2);
+
 
 
     component adder is
@@ -62,7 +61,7 @@ signal shift_out  : std_logic_vector(n-1 downto 0);
         port(
             sel  : in  std_logic_vector(1 downto 0);
             a    : in  std_logic_vector(n-1 downto 0);
-            b    : in  std_logic_vector(n-1 downto 0);
+            b    : in  std_logic_vector(m-1 downto 0);
             r    : out std_logic_vector(n-1 downto 0) 
         );
     end component;
@@ -70,7 +69,7 @@ signal shift_out  : std_logic_vector(n-1 downto 0);
 begin
 
 -- ALU ARCHITECTURE GOES HERE 
---temp_sel <= sel(3 downto 2);
+
 
 adder_module_inst : adder 
     port map(
@@ -112,6 +111,5 @@ begin
         when others => r <= shift_out;
     end case;           
 end process;
-
 end architecture structural;
 

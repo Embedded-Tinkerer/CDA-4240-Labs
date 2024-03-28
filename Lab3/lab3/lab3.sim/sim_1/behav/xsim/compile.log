@@ -1,0 +1,22 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_ALU'
+ERROR: [VRFC 10-4982] syntax error near 'Select' [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:16]
+ERROR: [VRFC 10-4982] syntax error near ')' [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:18]
+ERROR: [VRFC 10-4982] syntax error near 'Select' [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:23]
+ERROR: [VRFC 10-4982] syntax error near 'BEGIN' [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:30]
+ERROR: [VRFC 10-2969] 'alu' is not a type [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:33]
+ERROR: [VRFC 10-2989] 'a' is not declared [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:44]
+ERROR: [VRFC 10-2989] 'b' is not declared [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:45]
+ERROR: [VRFC 10-2989] 'alu_sel' is not declared [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:46]
+ERROR: [VRFC 10-4982] syntax error near 'for' [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:48]
+ERROR: [VRFC 10-3758] type ' void' does not match with a string literal [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:49]
+ERROR: [VRFC 10-1471] type error near ns ; current type time; expected type  void [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:50]
+ERROR: [VRFC 10-4982] syntax error near 'loop' [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:51]
+ERROR: [VRFC 10-2989] 'a' is not declared [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:52]
+ERROR: [VRFC 10-2989] 'b' is not declared [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:53]
+ERROR: [VRFC 10-4982] syntax error near 'wait' [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:54]
+ERROR: [VRFC 10-1471] type error near ns ; current type time; expected type  void [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:54]
+ERROR: [VRFC 10-2989] 'a' is not declared [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:55]
+ERROR: [VRFC 10-2989] 'b' is not declared [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:56]
+ERROR: [VRFC 10-4982] syntax error near 'wait' [K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.srcs/sim_1/new/alu_tb.vhd:57]
+INFO: [#UNDEF] Sorry, too many errors..

@@ -9,10 +9,10 @@ use ieee.std_logic_unsigned.all;
 entity adder is
     generic(n: integer := 6);
     port(
-        sel  : in  std_logic_vector(3 downto 0);
+        sel  : in  std_logic_vector(1 downto 0);
         a    : in  std_logic_vector(n-1 downto 0);
         b    : in  std_logic_vector(n-1 downto 0);
-        r    : inout std_logic_vector(n-1 downto 0) 
+        r    : out std_logic_vector(n-1 downto 0) 
     );
 end adder;
 
@@ -45,12 +45,11 @@ begin
     process(sel, a, b)
     begin
         case sel is
-                when "0000" => r <= sum;
-                when "0001" => r <= carry;
-                when "0010" => r <= difference;
-                when "0011" => r <= borrow;
+                when "00" => r <= sum;
+                when "01" => r <= carry;
+                when "10" => r <= difference;
+                when others => r <= borrow;
         end case;
-        adder_out <= r;
     end process;
             
 end architecture dataflow;

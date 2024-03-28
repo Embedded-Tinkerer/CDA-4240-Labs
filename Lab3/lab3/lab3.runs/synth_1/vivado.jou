@@ -1,14 +1,14 @@
 #-----------------------------------------------------------
-# Vivado v2023.2.1 (64-bit)
-# SW Build 4081461 on Thu Dec 14 12:24:51 MST 2023
-# IP Build 4080415 on Thu Dec 14 21:01:57 MST 2023
-# SharedData Build 4077621 on Mon Dec 11 00:23:44 MST 2023
-# Start of session at: Wed Mar 27 12:41:30 2024
-# Process ID: 27296
-# Current directory: C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.runs/synth_1
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Mar 27 22:13:05 2024
+# Process ID: 1568
+# Current directory: K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.runs/synth_1
 # Command line: vivado.exe -log alu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu.tcl
-# Log file: C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.runs/synth_1/alu.vds
-# Journal file: C:/Users/bryner/Documents/GitHub/CDA-4240-Labs/Lab3/lab3/lab3.runs/synth_1\vivado.jou
-# Running On: BRYNER-L01, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16912 MB
+# Log file: K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.runs/synth_1/alu.vds
+# Journal file: K:/My Drive/Grad/FAU_PhD/CDA 4240 - Design of Digital Systems/Labs/Lab3/lab3/lab3.runs/synth_1\vivado.jou
+# Running On: DESKTOP-I7EHI1I, OS: Windows, CPU Frequency: 3975 MHz, CPU Physical cores: 32, Host memory: 68629 MB
 #-----------------------------------------------------------
 source alu.tcl -notrace

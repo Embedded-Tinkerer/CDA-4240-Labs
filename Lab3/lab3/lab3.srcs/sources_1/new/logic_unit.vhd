@@ -19,16 +19,15 @@ architecture dataflow of logic_unit is
 begin
     process(sel, a, b) is
         begin
-        case sel is
-            when "00" => 
-                r <= not A;
-            when "01" =>
-                r <= A and B;
-            when "10" => 
-                r <= A or B;
-            when others =>
-                r <= A xor B;
-        end case;
+        if(sel = "00") then
+            r <= not A;
+        elsif (sel = "01") then
+            r <= A and B;
+        elsif (sel = "10") then
+            r <= A or B;
+        else r <= A xor B;
+        end if;
+                        
     end process;
 
 end architecture dataflow;

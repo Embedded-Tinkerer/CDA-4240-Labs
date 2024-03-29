@@ -4,7 +4,9 @@ use ieee.numeric_std.all;
 use ieee.std_logic_unsigned.all;
 
 entity alu is
-    generic(n: integer := 6);
+    generic(n: integer := 6;
+             m: integer := 3
+             );
     port(
         sel  : in  std_logic_vector(3 downto 0);
         a    : in  std_logic_vector(n-1 downto 0);
@@ -98,11 +100,11 @@ shifter_module_inst : shifter
         port map(
           sel => sel(1 downto 0),
           a => a,
-          b => b,
+          b => b(m-1 downto 0),
           r => shift_out
           ); 
 
-process(sel(3 downto 2), a, b) is
+process(sel, adder_out, mult_out, logic_out, shift_out,a,b) is
 begin
     case (sel(3 downto 2)) is
         when "00" => r <= adder_out;
